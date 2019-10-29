@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "ViewModel.h"
+#import "View.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong)View *aView;
+@property (nonatomic, strong)ViewModel *aViewModel;
 
 @end
 
@@ -17,16 +22,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor redColor];
+    
+    // 添加视图
+    [self.view addSubview:self.aView];
+    
+    /*绑定关系*/
+    // view 绑定 viewModel, 反过来不行.
+    [self.aView bindViewModel:self.aViewModel];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (View *)aView{
+    
+    if(!_aView){
+        _aView = [View new];
+    }
+    return _aView;
 }
-*/
 
 @end

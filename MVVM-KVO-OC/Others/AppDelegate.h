@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AppDelegate.h
 //  MVVM-KVO-OC
 //
 //  Created by 李贺 on 2019/10/26.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @end
 

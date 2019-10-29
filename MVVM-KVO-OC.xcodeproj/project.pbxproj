@@ -7,28 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		142CB7F523642A7C0030D616 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 142CB7F423642A7C0030D616 /* AppDelegate.m */; };
-		142CB7F823642A7C0030D616 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 142CB7F723642A7C0030D616 /* SceneDelegate.m */; };
-		142CB7FB23642A7C0030D616 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142CB7FA23642A7C0030D616 /* ViewController.m */; };
-		142CB7FE23642A7C0030D616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142CB7FC23642A7C0030D616 /* Main.storyboard */; };
 		142CB80023642A7D0030D616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142CB7FF23642A7D0030D616 /* Assets.xcassets */; };
 		142CB80323642A7D0030D616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142CB80123642A7D0030D616 /* LaunchScreen.storyboard */; };
-		142CB80623642A7D0030D616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 142CB80523642A7D0030D616 /* main.m */; };
+		142CB81723642DD80030D616 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 142CB80F23642DD80030D616 /* SceneDelegate.m */; };
+		142CB81823642DD80030D616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 142CB81023642DD80030D616 /* main.m */; };
+		142CB81923642DD80030D616 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 142CB81123642DD80030D616 /* AppDelegate.m */; };
+		142CB81D23642E330030D616 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142CB81C23642E330030D616 /* ViewController.m */; };
+		142CB81F23642FBC0030D616 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 142CB81E23642FBC0030D616 /* Info.plist */; };
+		142CB8222366CBC40030D616 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 142CB8212366CBC40030D616 /* Model.m */; };
+		142CB8252366CC7E0030D616 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 142CB8242366CC7E0030D616 /* ViewModel.m */; };
+		142CB8282366E8040030D616 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 142CB8272366E8040030D616 /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		142CB7F023642A7C0030D616 /* MVVM-KVO-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-KVO-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		142CB7F323642A7C0030D616 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		142CB7F423642A7C0030D616 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		142CB7F623642A7C0030D616 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		142CB7F723642A7C0030D616 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		142CB7F923642A7C0030D616 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		142CB7FA23642A7C0030D616 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		142CB7FD23642A7C0030D616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		142CB7FF23642A7D0030D616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		142CB80223642A7D0030D616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		142CB80423642A7D0030D616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		142CB80523642A7D0030D616 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		142CB80E23642DD80030D616 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		142CB80F23642DD80030D616 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		142CB81023642DD80030D616 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		142CB81123642DD80030D616 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		142CB81323642DD80030D616 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		142CB81B23642E330030D616 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		142CB81C23642E330030D616 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		142CB81E23642FBC0030D616 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142CB8202366CBC40030D616 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		142CB8212366CBC40030D616 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		142CB8232366CC7E0030D616 /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		142CB8242366CC7E0030D616 /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		142CB8262366E8040030D616 /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		142CB8272366E8040030D616 /* View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +69,64 @@
 		142CB7F223642A7C0030D616 /* MVVM-KVO-OC */ = {
 			isa = PBXGroup;
 			children = (
-				142CB7F323642A7C0030D616 /* AppDelegate.h */,
-				142CB7F423642A7C0030D616 /* AppDelegate.m */,
-				142CB7F623642A7C0030D616 /* SceneDelegate.h */,
-				142CB7F723642A7C0030D616 /* SceneDelegate.m */,
-				142CB7F923642A7C0030D616 /* ViewController.h */,
-				142CB7FA23642A7C0030D616 /* ViewController.m */,
-				142CB7FC23642A7C0030D616 /* Main.storyboard */,
+				142CB80D23642DD80030D616 /* Others */,
+				142CB81523642DD80030D616 /* ViewController */,
+				142CB81623642DD80030D616 /* VIewModel */,
+				142CB80C23642DD80030D616 /* View */,
+				142CB81423642DD80030D616 /* Model */,
 				142CB7FF23642A7D0030D616 /* Assets.xcassets */,
+				142CB81E23642FBC0030D616 /* Info.plist */,
 				142CB80123642A7D0030D616 /* LaunchScreen.storyboard */,
-				142CB80423642A7D0030D616 /* Info.plist */,
-				142CB80523642A7D0030D616 /* main.m */,
 			);
 			path = "MVVM-KVO-OC";
+			sourceTree = "<group>";
+		};
+		142CB80C23642DD80030D616 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				142CB8262366E8040030D616 /* View.h */,
+				142CB8272366E8040030D616 /* View.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		142CB80D23642DD80030D616 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				142CB80E23642DD80030D616 /* AppDelegate.h */,
+				142CB81123642DD80030D616 /* AppDelegate.m */,
+				142CB81323642DD80030D616 /* SceneDelegate.h */,
+				142CB80F23642DD80030D616 /* SceneDelegate.m */,
+				142CB81023642DD80030D616 /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		142CB81423642DD80030D616 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				142CB8202366CBC40030D616 /* Model.h */,
+				142CB8212366CBC40030D616 /* Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		142CB81523642DD80030D616 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				142CB81B23642E330030D616 /* ViewController.h */,
+				142CB81C23642E330030D616 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		142CB81623642DD80030D616 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				142CB8232366CC7E0030D616 /* ViewModel.h */,
+				142CB8242366CC7E0030D616 /* ViewModel.m */,
+			);
+			path = VIewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +188,7 @@
 			files = (
 				142CB80323642A7D0030D616 /* LaunchScreen.storyboard in Resources */,
 				142CB80023642A7D0030D616 /* Assets.xcassets in Resources */,
-				142CB7FE23642A7C0030D616 /* Main.storyboard in Resources */,
+				142CB81F23642FBC0030D616 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +199,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142CB7FB23642A7C0030D616 /* ViewController.m in Sources */,
-				142CB7F523642A7C0030D616 /* AppDelegate.m in Sources */,
-				142CB80623642A7D0030D616 /* main.m in Sources */,
-				142CB7F823642A7C0030D616 /* SceneDelegate.m in Sources */,
+				142CB8282366E8040030D616 /* View.m in Sources */,
+				142CB8252366CC7E0030D616 /* ViewModel.m in Sources */,
+				142CB81723642DD80030D616 /* SceneDelegate.m in Sources */,
+				142CB81823642DD80030D616 /* main.m in Sources */,
+				142CB81D23642E330030D616 /* ViewController.m in Sources */,
+				142CB81923642DD80030D616 /* AppDelegate.m in Sources */,
+				142CB8222366CBC40030D616 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		142CB7FC23642A7C0030D616 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				142CB7FD23642A7C0030D616 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		142CB80123642A7D0030D616 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -225,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,14 +338,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7PY2JA4QD;
 				INFOPLIST_FILE = "MVVM-KVO-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hl.demo.MVVM-KVO-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,14 +356,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7PY2JA4QD;
 				INFOPLIST_FILE = "MVVM-KVO-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hl.demo.MVVM-KVO-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

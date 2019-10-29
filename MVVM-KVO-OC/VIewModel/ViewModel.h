@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ViewModel : NSObject
 
+@property (nonatomic, copy)NSString *nameString;
+@property (nonatomic, copy)NSString *racMsg;
+
+- (void)getData;
+
 @end
 
 NS_ASSUME_NONNULL_END
